@@ -24,7 +24,7 @@ def preprocess_img(image):
     ])
     return preprocess(image).unsqueeze(0)
 
-img_path = 'squashtik.jpg'  # Replace 'path_to_your_image.jpg' with the path to your image
+img_path = 'test.jpg'  # Replace 'path_to_your_image.jpg' with the path to your image
 img = cv2.imread(img_path)
 
 # Detect faces in the image
